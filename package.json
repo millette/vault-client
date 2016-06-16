@@ -1,5 +1,5 @@
 {
-  "name": "vault-client",
+  "name": "now-vault-client",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "http://robin.millette.info"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "AGPL-3.0",
   "dependencies": {
     "debug": "^2.2.0",
     "got": "^6.3.0",
